@@ -1,12 +1,12 @@
 {
-  "name": "vite",
+  "name": "notes_frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 4173"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.29.1",
@@ -16,7 +16,6 @@
     "vite": "^6.2.0"
   },
   "dependencies": {
-    "@eslint/js": "^9.24.0",
-    "save-dev": "^0.0.1-security"
+    "@eslint/js": "^9.24.0"
   }
 }
